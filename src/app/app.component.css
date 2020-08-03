@@ -1,0 +1,23 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+app-sudoku {
+  padding: 0px;
+  margin: 0px;
+}
+
+app-header {
+  padding: 0px;
+  margin: 0px;
+}
+@media only screen and (max-width: 700px) {
+  app-header {
+    display: none;
+  }
+}

@@ -1,0 +1,77 @@
+<nav
+  class="navbar navbar-default"
+  style="min-height: 0px; margin-bottom: 25px;"
+>
+  <div class="container-fluid">
+    <div class="col-xs-1"></div>
+    <div class="navbar-header">
+      <a
+        [style.color]="'black'"
+        href="#"
+        class="navbar-brand"
+        style="font-weight: bold;"
+        >SudokuApp<a style="color: blue; font-weight: bold; font-size: 20px;"
+          >.</a
+        >com</a
+      >
+    </div>
+    <div class="col-xs-1"></div>
+    <div class="collapse navbar-collapse">
+      <div
+        style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          font-weight: bold;
+          font-size: 18px;
+        "
+      >
+        <ul class="nav navbar-nav">
+          <li>
+            <a
+              [style.color]="'dodgerblue'"
+              href="#"
+              (click)="onSelect('SudokuV1')"
+              >Game</a
+            >
+          </li>
+          <li>
+            <a
+              [style.color]="'dodgerblue'"
+              href="#"
+              (click)="onSelect('SudokuV2')"
+              >Leaderboards</a
+            >
+          </li>
+
+          <li><a [style.color]="'dodgerblue'" href="#">Tips</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a
+              href="#"
+              class="dropdown-toggle"
+              role="button"
+              style="font-size: 15px;"
+              ><img
+                src="assets/langs/engUs.PNG"
+                alt=""
+                class="img-responsive"
+                style="
+                  max-height: 10px;
+                  float: left;
+                  margin-right: 4px;
+                  margin-top: 5px;
+                " />
+              English
+              <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Sa</a></li>
+              <li><a href="#">Fe</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

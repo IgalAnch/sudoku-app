@@ -1,0 +1,74 @@
+{
+  "app": {
+    "user": {
+      "user.game.board.service.ts": 0,
+      "user.game.service.ts": 0,
+      "user.save.service.ts": 0,
+      "user.load.service.ts": 0,
+      "user.stats.service.ts": 0
+    },
+    "header": {
+      "header.component.ts": 0,
+      "header.component.html": 0
+    },
+    "game": {
+      "game.component.ts": 0,
+      "game.component.html": 0,
+      "board": {
+        "board.service.ts": 0,
+        "cell": {
+          "cell.model.ts": 0,
+          "cell.component.ts": 0,
+          "cell.component.html": 0,
+          "pencil": {
+            "pencil.component.ts": 0,
+            "pencil.component.html": 0
+          }
+        }
+      },
+      "right-column": {
+        "new-game": {
+          "new-game.component.ts": 0,
+          "new-game.component.html": 0
+        },
+        "numpad": {
+          "numpad.service.ts": 0,
+          "numpad.component.ts": 0,
+          "numpad.component.html": 0
+        },
+        "aid-btns": {
+          "aid-btns.component.ts": 0,
+          "aid-btns.component.html": 0
+        }
+      }
+    },
+    "leaderboards": {
+      "leaderboards.service.ts": 0,
+      "leaderboards.component.ts": 0,
+      "leaderboards.component.html": 0
+    },
+    "tips": {
+      "tips.component.ts": 0,
+      "tips.component.html": 0
+    },
+
+    "app.component.ts": 1,
+    "app.component.html": 1,
+    "app.module.ts": 1,
+    "app-routing.module.ts": 1,
+
+    "app.component.css": 0,
+    "app.component.spec.ts": 0,
+
+    "assets": {
+      "lang": {
+        "engUs.PNG": 0
+      },
+      "read": {
+        "filePath.json": 0,
+        "sudoku.txt": 0
+      },
+      ".gitkeep": 0
+    }
+  }
+}
