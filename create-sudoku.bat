@@ -1,0 +1,1 @@
+node --stack-size=9000 sudoku-generator.js
